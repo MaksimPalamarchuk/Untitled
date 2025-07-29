@@ -226,6 +226,8 @@ html {
     background: #ffff;
     display: flex;
     justify-content: flex-end;
+    width: 1080px;
+    left: 60px;;
 
 }
 
