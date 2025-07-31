@@ -160,10 +160,18 @@ html {
     align-items: center;
 }
 
-.section {
+.buyers {
+    position: relative;
     width: 1200px;
     height: 2227px;
-    background: #ff0000;
+    background: #FFFFFF;
+}
+
+.who-we-impower {
+    width: 1200px;
+    height: 2227px;
+    background: #F5F4F2;
+
 }
 
 .section-text {
@@ -200,7 +208,7 @@ html {
     letter-spacing: 2.32px;
     text-transform: uppercase;
     color: #6157AB;
-    padding: 25px;
+    padding: 15px 25px;
     border-radius: 8px;
     background: #ECEAF8;
 
@@ -235,7 +243,7 @@ html {
 
 }
 
-.section-container {
+.buyers-container {
     position: relative;
     display: flex;
     width: 1080px;
@@ -243,7 +251,7 @@ html {
     border-top-left-radius: 19px;
     border-top-right-radius: 19px;
     left: 60px;
-    background: #fff;
+    background: #ffffff;
 }
 
 .photo-zone {
@@ -256,11 +264,13 @@ html {
 }
 
 .texts-buyers {
+    position: relative;
     display: flex;
     flex-direction: column;
     width: 431px;
     gap: 30px;
     padding: 33px 25px;
+    bottom: 30px;
 }
 
 .buyers-title-litle {
@@ -297,14 +307,113 @@ html {
 
 
 
-.colored {
+.colored-article {
     width: 223px;
     height: 54px;
     border-radius: 5px;
     background: #6157AB;
     padding: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.buyers-house {
+    width: 1080px;
+    height: 914px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    background: #000000;
+    z-index: 1;
 }
 
 .house {
     margin-right: 85px;
+}
+
+.line-article {
+    position: relative;
+    width: 381px;
+    height: 1px;
+    background: #C9D3D9;
+    padding: 1px;
+
+}
+
+
+
+
+.line-center {
+    position: relative;
+    display: flex;
+    width: 932px;
+    height: 1px;
+    background: #000000;
+    left: 75px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+
+
+
+
+.buyers-buttons {
+    display: flex;
+    height: 200px;
+    background: green;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+
+.buyers-button {
+    width: 200px;
+    height: 200px;
+    background: #b8b8b8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.buyers-img {
+    display: flex;
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+}
+
+
+.buyers-text {
+    width: 209px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 22px;
+    color: #6157AB;
+}
+
+
+.dolar {
+    position: relative;
+    bottom: 75px;
+}
+
+.pensil {
+    position: relative;
+    bottom: 75px;
+}
+
+.house-dolar {
+    position: relative;
+    bottom: 75px;
 }
