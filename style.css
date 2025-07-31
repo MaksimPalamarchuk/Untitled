@@ -11,13 +11,13 @@ html {
     padding: 0;
     box-sizing: border-box;
     user-select: none;
+
 }
 
 .container {
     width: 1200px;
-    height: 5433px;
     margin: 0 auto;
-    background: #ffffff;
+    background: #1069c2;
 }
 
 .header {
@@ -160,18 +160,9 @@ html {
     align-items: center;
 }
 
-.buyers {
-    position: relative;
-    width: 1200px;
-    height: 2227px;
-    background: #FFFFFF;
-}
-
-.who-we-impower {
-    width: 1200px;
+.section {
     height: 2227px;
     background: #F5F4F2;
-
 }
 
 .section-text {
@@ -229,8 +220,18 @@ html {
     background: #FFFFFF;
 }
 
+.section-container {
+    position: relative;
+    bottom: 460px;
+    height: 964px;
+    background: #ffff;
+    display: flex;
+    justify-content: flex-end;
+    width: 1080px;
+    left: 60px;
+    ;
 
-
+}
 
 
 .line-section {
@@ -243,46 +244,456 @@ html {
 
 }
 
-.buyers-container {
-    position: relative;
-    display: flex;
-    width: 1080px;
-    height: 914px;
-    border-top-left-radius: 19px;
-    border-top-right-radius: 19px;
-    left: 60px;
-    background: #ffffff;
+
+.house {
+    width: 466px;
 }
 
-.photo-zone {
-    position: relative;
-    display: flex;
-    height: 494px;
-    justify-content: center;
-    top: 75px;
-    left: 74px;
-}
 
 .texts-buyers {
-    position: relative;
+    height: 494px;
+    width: 381px;
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
-    width: 431px;
-    gap: 30px;
-    padding: 33px 25px;
-    bottom: 30px;
 }
 
-.buyers-title-litle {
-    margin-top: 67px;
+
+
+
+.section-text2 {
+    position: relative;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2.32px;
+    text-transform: uppercase;
+    top: 130px;
+    right: 100px;
+}
+
+
+.section-text3 {
+    position: relative;
+    width: 367px;
+    height: 104px;
     font-family: Roboto;
     font-weight: 400;
     font-style: Regular;
     font-size: 40px;
     line-height: 52px;
     letter-spacing: 0%;
+    bottom: 1175px;
+    left: 720px;
+}
+
+
+.section-text4 {
+    position: relative;
+    width: 381px;
+    height: 120px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 21px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #636769;
+    bottom: 1140px;
+    left: 720px;
+}
+
+
+
+.section-button {
+    position: relative;
+    width: 233px;
+    height: 54px;
+    border-radius: 5px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    bottom: 1100px;
+    left: 720px;
+}
+
+.line-section2 {
+    position: relative;
+    width: 1060px;
+    height: 1px;
+    background: #C9D3D9;
+    left: 60px;
+    bottom: 1000px;
+}
+
+.purple-background {
+    position: relative;
+    bottom: 940px;
+    left: 150px;
+}
+
+.dolar {
+    position: relative;
+    bottom: 960px;
+    left: 100px;
+}
+
+
+.purple-background2 {
+    position: relative;
+    bottom: 940px;
+    left: 450px;
+}
+
+
+.pensil {
+    position: relative;
+    bottom: 960px;
+    left: 395px;
+}
+
+
+.purple-background3 {
+    position: relative;
+    bottom: 940px;
+    left: 732px;
+}
+
+.house-with-dolar {
+    position: relative;
+    bottom: 960px;
+    left: 675.5px;
+}
+
+
+.section-text5 {
+    position: relative;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 209px;
+    height: 19px;
+    color: #6157AB;
+    bottom: 930px;
+    left: 90px;
+}
+
+
+
+.section-text6 {
+    position: relative;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 209px;
+    height: 19px;
+    color: #6157AB;
+    bottom: 950px;
+    left: 480px;
+}
+
+
+
+.section-text7 {
+    position: relative;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 209px;
+    height: 19px;
+    color: #6157AB;
+    bottom: 970px;
+    left: 870px;
+}
+
+.section-container2 {
+    width: 100px;
+    height: 100px;
+    background: #E3E6F9;
+    position: relative;
+    left: 60px;
+    bottom: 870px;
+}
+
+
+.section-text8 {
+    position: relative;
+    width: 600px;
+    height: 65px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 51px;
+    line-height: 64.8px;
+    letter-spacing: 0.68px;
+    text-align: center;
+    bottom: 1750px;
+    left: 300px;
+    color: #323A5B;
+}
+
+.section-text9 {
+    position: relative;
+    width: 436px;
+    height: 168px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 0px;
+    text-align: center;
+    bottom: 1700px;
+    left: 124px;
+}
+
+.man {
+    position: relative;
+    bottom: 1690px;
+    left: 240px;
+}
+
+
+.section-text10 {
+    width: 129px;
+    height: 17px;
+    position: relative;
+    bottom: 1755px;
+    left: 322px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11px;
+    line-height: 16.5px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #636769;
+}
+
+.section-text11 {
+    width: 129px;
+    height: 17px;
+    position: relative;
+    bottom: 1755px;
+    left: 322px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: #636769;
+}
+
+
+.line-section3 {
+    position: relative;
+    width: 439px;
+    height: 1px;
+    background: #000;
+    bottom: 1680px;
+    left: 130px;
+    background: #C9C9C9;
+}
+
+.section-text12 {
+    position: relative;
+    width: 425px;
+    height: 60px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #636769;
+    bottom: 1645px;
+    left: 130px;
+}
+
+.section-button-learn-more {
+    position: relative;
+    width: 148px;
+    height: 56px;
+    border-radius: 5px;
+    border-width: 1px;
+    border: 1px solid #574D9C;
+    color: #574D9C;
+    background: white;
+    bottom: 1620px;
+    left: 267px;
+}
+
+.uncolored-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
 
 }
+
+
+.Living-room {
+    position: relative;
+    bottom: 2100px;
+    left: 600px;
+}
+
+.next-part {
+    bottom: 2025px;
+}
+
+
+
+.section-text13 {
+    position: relative;
+    width: 211px;
+    height: 105px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 69px;
+    line-height: 104.04px;
+    letter-spacing: 0%;
+    color: #323A5B;
+    bottom: 2000px;
+    left: 150px;
+}
+
+
+.section-text14 {
+    position: relative;
+    width: 211px;
+    height: 105px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 69px;
+    line-height: 104.04px;
+    letter-spacing: 0%;
+    color: #323A5B;
+    bottom: 2105px;
+    left: 480px;
+}
+
+
+.section-text15 {
+    position: relative;
+    width: 211px;
+    height: 105px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 69px;
+    line-height: 104.04px;
+    letter-spacing: 0%;
+    color: #323A5B;
+    bottom: 2210px;
+    left: 850px;
+}
+
+.section-text16 {
+    position: relative;
+    width: 167px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #323A5B;
+    left: 160px;
+    bottom: 2225px;
+}
+
+.section-text17 {
+    position: relative;
+    width: 167px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #323A5B;
+    left: 550px;
+    bottom: 2245px;
+}
+
+.section-text18 {
+    position: relative;
+    width: 167px;
+    height: 19px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 18.9px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #323A5B;
+    left: 870px;
+    bottom: 2264px;
+}
+
+.who-we-impower {
+    height: 299px;
+    width: 100%;
+    background: #a2a2a2;
+}
+
+
+.buyers {
+    width: 1080px;
+    height: 914px;
+    border-top-left-radius: 19px;
+    border-top-right-radius: 19px;
+    background: #FFFFFF;
+    margin: 0 auto;
+    padding-top: 75px;
+}
+
+.photo-zone {
+    height: 494px;
+    width: 100%;
+    display: flex;
+    background: #FFFFFF;
+    justify-content: center;
+    gap: 85px;
+}
+
 
 .buyers-title-small {
     font-family: Roboto;
@@ -292,19 +703,42 @@ html {
     line-height: 24px;
     letter-spacing: 2.32px;
     text-transform: uppercase;
-    color: #6157AB;
+    width: 164px;
+    height: 24px;
+    color: #574D9C;
+    margin-top: 20px;
 }
 
+
+
+.buyers-title-litle {
+    width: 367px;
+    height: 104px;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    color: black;
+    margin-top: 60px;
+
+}
+
+
+
 .buyers-title-article {
+    width: 381px;
+    height: 120px;
     font-family: Roboto;
     font-weight: 400;
     font-style: Regular;
     font-size: 21px;
     line-height: 30px;
     letter-spacing: 0%;
-
+    color: #636769;
+    margin-top: 25px;
 }
-
 
 
 .colored-article {
@@ -312,84 +746,57 @@ html {
     height: 54px;
     border-radius: 5px;
     background: #6157AB;
-    padding: 20px;
-    color: #FFFFFF;
     border: none;
-}
-
-.buyers-house {
-    width: 1080px;
-    height: 914px;
-    border-top-left-radius: 19px;
-    border-top-right-radius: 19px;
-    background: #000000;
-    z-index: 1;
-}
-
-.house {
-    margin-right: 85px;
+    color: #FFFFFF;
+    font-family: Roboto;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5px;
+    margin-top: 86px;
 }
 
 .line-article {
-    position: relative;
     width: 381px;
     height: 1px;
-    background: #C9D3D9;
-    padding: 1px;
-
+    background: #000;
 }
-
-
-
-
-.line-center {
-    position: relative;
-    display: flex;
-    width: 932px;
-    height: 1px;
-    background: #000000;
-    left: 75px;
-    margin: 0 auto;
-    margin-top: 150px;
-}
-
-
-
-
 
 .buyers-buttons {
+    width: 100%;
+    height: 259px;
+    background: #FFFFFF;
     display: flex;
-    height: 200px;
-    background: green;
-    margin-top: 100px;
-    justify-content: space-around;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    gap: 155px;
 }
 
-
 .buyers-button {
-    width: 200px;
-    height: 200px;
-    background: #b8b8b8;
+    width: 259px;
+    height: 152px;
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
-
-.buyers-img {
-    display: flex;
+.button-img-wrapper {
     width: 70px;
     height: 70px;
+    background: #574D9C;
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
+
 
 
 .buyers-text {
-    width: 209px;
-    height: 19px;
+    width: 185px;
+    height: 38px;
     font-family: Roboto;
     font-weight: 400;
     font-style: Regular;
@@ -398,22 +805,29 @@ html {
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase;
-    padding-top: 22px;
     color: #6157AB;
+    margin-top: 16px;
 }
 
 
-.dolar {
-    position: relative;
-    bottom: 75px;
+.start {
+    width: 209px;
+    height: 19px;
+    margin-bottom: 20px;
 }
 
-.pensil {
-    position: relative;
-    bottom: 75px;
+
+.end {
+    width: 202px;
+    height: 19px;
+    margin-bottom: 20px;
 }
 
-.house-dolar {
-    position: relative;
-    bottom: 75px;
+
+.line-center {
+    width: 932px;
+    height: 1px;
+    margin: 0 auto;
+    background: #000;
+    margin-top: 80px;
 }
